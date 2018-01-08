@@ -1,0 +1,41 @@
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$overlay: rgba(0, 102, 204, 0.4);
+$icon-size: 30px;
+
+body{
+  background: $bg-color;
+  color: $font-color;
+}
+
+.navbar{
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.8;
+}
+
+#intro-section{
+  background: url('../img/pink-beach-1761410_1920.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .overlay{
+    background-color: $overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+}
+
+.intro-inner{
+  padding-top: 150px;
+}
+
+.profile-img{
+  width: 25%;
+  height: auto;
+  border-radius: 50px;
+}
